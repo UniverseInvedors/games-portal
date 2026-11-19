@@ -391,6 +391,28 @@
     .faq-item h3 { font-size: 0.9rem; color: #7dd3fc; margin-bottom: 0.25rem; }
     .faq-item p { font-size: 0.83rem; color: #cbd5e1; line-height: 1.5; }
   </style>
+
+<script>
+(function() {
+  var CR = 'https://universe-ai-engine-1002491686203.asia-south1.run.app';
+  document.addEventListener('click', function(e) {
+    var a = e.target.closest('a[href*="marketplace"]');
+    if (!a) return;
+    if (typeof gtag === 'function') {
+      gtag('event', 'cta_click', {product_id: 'app_games_collection', value: 49, currency: 'USD', event_category: 'Commercial'});
+    }
+    try {
+      navigator.sendBeacon(CR + '/v1/analytics/revenue', JSON.stringify({
+        event_type: 'cta_click', product_id: 'app_games_collection', amount_usd: 0,
+        page_url: location.href, referrer: document.referrer,
+        session_id: (sessionStorage.getItem('u_sid') || (function(){ var s=Math.random().toString(36).substr(2,16); sessionStorage.setItem('u_sid',s); return s; }())),
+        property: location.hostname
+      }));
+    } catch(e) {}
+  });
+})();
+</script>
+
 </head>
 <body data-shader-theme="cyber">
   <header class="topbar">
@@ -540,5 +562,13 @@
     }
     window.addEventListener("DOMContentLoaded", syncHudButtons);
   </script>
+
+<div id="u-games-cta" style="position:fixed;bottom:18px;right:18px;z-index:9999;background:#7c3aed;color:#fff;padding:12px 20px;border-radius:10px;box-shadow:0 4px 20px rgba(0,0,0,.35);font-family:sans-serif;font-size:13px;font-weight:600;cursor:pointer;max-width:260px;text-align:center;">
+  <a href="https://universeinvedors.tech/marketplace.html?product=app_games_collection" style="color:#fff;text-decoration:none;" target="_blank">
+    🎮 Get All 37 Games Source Code — $49
+  </a>
+  <span style="position:absolute;top:4px;right:8px;font-size:12px;opacity:.7;cursor:pointer;" onclick="document.getElementById('u-games-cta').style.display='none'">✕</span>
+</div>
+
 </body>
 </html>
