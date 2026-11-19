@@ -1,0 +1,19 @@
+{
+  "name": "Manor Restored — 3D Estate & Match-3",
+  "short_name": "Manor Restored",
+  "description": "Restore a grand Victorian estate in real-time 3D with heirloom furnishings and tactical Match-3 puzzles.",
+  "start_url": "/",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "any",
+  "background_color": "#0e121b",
+  "theme_color": "#0e121b",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

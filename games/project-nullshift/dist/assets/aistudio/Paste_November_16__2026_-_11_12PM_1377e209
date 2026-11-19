@@ -1,0 +1,840 @@
+# MASTER DEVELOPMENT COMMAND — PROJECT NULLSHIFT: NEXT-GENERATION AAA TACTICAL FPS TRANSFORMATION
+
+## PRIMARY DIRECTIVE
+
+Act as an elite multidisciplinary AAA game development studio with expertise in competitive tactical shooters, Unreal Engine-quality art direction, Three.js/WebGL/WebGPU rendering, character animation, multiplayer networking, FPS combat engineering, 3D level design, AI opponents, cinematic UI/UX, and performance optimization.
+
+**PROJECT:** PROJECT NULLSHIFT
+
+**MISSION:** Transform the EXISTING PROJECT NULLSHIFT into an exceptionally polished, full-scale, first-person competitive tactical shooter with the gameplay completeness, operative-selection depth, environmental sophistication, tactical combat, and production presentation associated with leading games such as VALORANT, while developing a stronger original visual identity and innovative systems.
+
+Do not create a miniature FPS demo, static character gallery, small empty arena, or nonfunctional menu prototype.
+
+**Build an actual, integrated, fully playable game.**
+
+Preserve and improve all existing implementations. Do not restart the project, replace its core identity, or discard verified functionality.
+
+Use VALORANT as a benchmark for gameplay depth and production quality, not as a source of copyrighted assets, character designs, distinctive interface artwork, or copied map layouts.
+
+---
+
+# 1. EXISTING PROJECT — MANDATORY PRESERVATION
+
+Inspect the complete codebase before making changes, especially:
+
+- `src/game/catalog.ts`
+- `src/game/models3d.ts`
+- `src/game/rules.test.ts`
+- `src/components/TacticalArenaCanvas.tsx`
+- `src/components/TacticalHudOverlay.tsx`
+- `src/components/ModalsOverlay.tsx`
+
+Preserve all 12 existing operatives:
+
+VEX, KESTREL, AEGIS, NYX, VALKYR, SOLIS, WARDEN, MIRAGE, KAZE, SONAR, SERAPH, and GRAVITAS.
+
+Preserve all 10 existing weapons, 6 arenas, 4 operative roles, Q/E/X ability architecture, weapon economy, shield system, ballistic profiles, enemy AI policies, and round rules.
+
+The current procedural graphics, studio presentation, and tactical arena are starting points—not the final production standard.
+
+Improve them through better model assets, environment architecture, rendering, animation, combat systems, navigation, and player interaction.
+
+All changes must remain compatible with existing working systems, or include tested migrations.
+
+# 2. COMPLETE PLAYABLE OPERATIVE SELECTION
+
+This is the highest immediate priority.
+
+Build a spectacular, fully functional 3D Operative Selection system.
+
+## Main Operative Selection Screen
+
+Display all 12 operatives in a modern, responsive selection interface.
+
+When the player selects an operative, immediately present:
+
+- A large, fully rendered, animated 3D character.
+- Full-body inspection with camera orbit and zoom.
+- Operative name, role, faction, and background.
+- Distinctive character silhouette and personality.
+- Three abilities with icons, descriptions, cooldowns, and demonstrations.
+- Weapon and playstyle recommendations.
+- Strengths, weaknesses, and tactical counterplay.
+- Appearance customization, if supported.
+- A prominent **LOCK IN** button.
+
+Character previews must be genuine 3D models, not simple colored capsules, static portraits, or generic mannequins.
+
+## Cinematic Character Presentation
+
+Each operative must have:
+
+- Unique character appearance.
+- Distinct headgear, facial features or visor.
+- Individually recognizable armor.
+- Unique body proportions and silhouette.
+- Character-specific animation set or animation variations.
+- Idle, inspection, walking, running, crouching, firing, reloading, ability casting, damage, and death animations.
+- Full-body shadows and convincing grounded contact.
+- Weapon attachment points.
+- Character-specific voice lines or suitable original synthesized dialogue where licensing permits.
+- Presentation lighting matched to their personality.
+
+Selecting VEX should feel visibly different from selecting AEGIS, NYX, or KESTREL.
+
+Do not merely recolor one identical character model.
+
+## Team Selection Experience
+
+Implement a complete pre-match operative selection flow.
+
+- Display the selected map with a cinematic preview.
+- Show five friendly team slots.
+- Let players preview operatives before locking in.
+- Show which operatives teammates have selected.
+- Prevent duplicate selections within one team in standard competitive modes.
+- Implement a configurable selection countdown.
+- Synchronize picks, lock-in actions, and timer with the server in multiplayer.
+- Handle disconnects, timeouts, and unavailable selections explicitly.
+- Transition from selection into a cinematic map-loading sequence.
+- Spawn the player using the selected operative's actual gameplay model and abilities.
+
+For offline play, AI teammates automatically select complementary operatives based on team composition.
+
+Operative selection must also be accessible from the main menu for inspection, customization, and practice.
+
+**Acceptance requirement:** A player can select any of the 12 operatives, inspect the complete 3D model, lock in, enter a match, and play using that exact operative's abilities.
+
+---
+
+# 3. MASSIVE, BEAUTIFUL, FULLY EXPLORABLE 3D ENVIRONMENTS
+
+Replace the current small arena-like presentation with substantial, detailed, professionally designed tactical environments.
+
+The environments must have the scale, visual complexity, architecture, depth, and atmosphere of premium commercial FPS games.
+
+However, larger maps must remain tactically useful, with controlled engagement distances and reasonable objective travel times.
+
+## Environmental Quality Requirements
+
+Implement:
+
+- Large interconnected playable areas.
+- Buildings with accessible interiors.
+- Multiple rooms, corridors, and stairways.
+- Rooftops, bridges, platforms, and elevated cover.
+- Underground passages and maintenance tunnels.
+- Exterior courtyards and detailed urban or industrial zones.
+- Meaningful natural and structural cover.
+- Large distant background architecture.
+- Environmental storytelling.
+- Dynamic machinery and animated world elements.
+- Realistic material properties and surface responses.
+- Atmospheric depth, fog, particles, and controlled volumetric effects.
+- High-quality shadows, lighting, reflections, and ambient sound.
+- Smooth movement between indoor and outdoor spaces.
+- Optimized collision meshes and navigable geometry.
+
+No empty giant platforms. No simplistic rooms connected by a few walls.
+
+A large environment must contain meaningful locations and visual landmarks throughout.
+
+## Map Design Standards
+
+Use the following as initial design targets, adjusting them through actual playtesting:
+
+- Core combat maps approximately 180–300 meters across where appropriate.
+- Two primary objective sites, A and B.
+- Multiple attacker routes and defender rotations.
+- A strategically important central area.
+- At least three meaningful approaches to contested areas.
+- Clear short-, medium-, and long-range engagement opportunities.
+- Vertical tactics without excessive competitive visibility problems.
+- Balanced spawn locations.
+- Consistent site access and retake opportunities.
+- Dedicated navigation for AI.
+- Accurate world-to-minimap mapping.
+
+The playable map is not required to be enormous in every direction. Distant scenery can extend substantially beyond the collision-limited competitive play area.
+
+Prioritize strategic depth, sightline balance, cover placement, and consistent frame rate over raw square mileage.
+
+## Upgrade All Six Existing Maps
+
+### AEGIS-7 Orbital Relay
+
+Develop a monumental orbital military installation featuring:
+
+- Massive observation windows overlooking a planet.
+- Connected station modules and engineering chambers.
+- Hangar decks, security corridors, and maintenance shafts.
+- Multi-level control rooms.
+- Industrial machinery and holographic displays.
+- Exterior space vistas and animated docking spacecraft.
+
+Special mechanic: timed security bulkheads and controllable access corridors.
+
+### Kronos Cryo-Vault
+
+Create an immense frozen research installation featuring:
+
+- Ice-covered exterior structures.
+- Underground cryogenic laboratories.
+- Frozen storage chambers.
+- Glass bridges and industrial elevators.
+- Deep reactor rooms and cooling systems.
+
+Special mechanic: carefully telegraphed environmental visibility changes from cryogenic ventilation.
+
+### Solaris Arcology
+
+Create a dense futuristic vertical city environment featuring:
+
+- Neon-lit streets and public plazas.
+- Multi-storey interiors.
+- Skybridges, transit stations, and elevated passageways.
+- Towering skyscrapers and digital billboards.
+- Rooftop access and carefully balanced vertical combat lanes.
+
+Special mechanic: controlled movement routes through transit infrastructure.
+
+### Veridian Bio-Forge
+
+Create an overgrown biotechnology research complex featuring:
+
+- Giant greenhouse biodomes.
+- Biological experimentation laboratories.
+- Containment rooms and industrial processing zones.
+- Vegetation-covered corridors.
+- Glass observation galleries and underground facilities.
+
+Special mechanic: destructible or controllable containment barriers, subject to competitive balance.
+
+### Helios Drift Dock
+
+Create a massive futuristic shipyard featuring:
+
+- Cargo storage and logistics facilities.
+- Spacecraft maintenance hangars.
+- Industrial cranes and elevated catwalks.
+- Vehicle bays and docking platforms.
+- Control towers and maintenance passages.
+
+Special mechanic: moving industrial cover with clearly predictable timing.
+
+### Null-Sector Citadel
+
+Create a monumental black-site fortress featuring:
+
+- Brutalist military architecture.
+- Long fortified corridors.
+- Underground command centers.
+- Defensive towers.
+- Large central chambers and interconnected wings.
+- Advanced security technology and unusual architectural geometry.
+
+Special mechanic: tactical route alterations through controllable security doors.
+
+Every map must have a unique silhouette, recognizable landmarks, original gameplay identity, and distinct visual atmosphere.
+
+---
+
+# 4. NEXT-GENERATION FIRST-PERSON GAMEPLAY
+
+Implement a genuinely responsive, skill-based FPS controller.
+
+## Movement
+
+Support:
+
+- Mouse-look and pointer lock on desktop.
+- WASD movement.
+- Walking and configurable sprinting only where consistent with the selected mode's tactical balance.
+- Crouching and crouch-walking.
+- Jumping with reliable collision.
+- Landing responses.
+- Footstep sound based on surface type and movement speed.
+- Optional tactical movement mechanics where individually balanced.
+- Accurate stairs and slopes.
+- Head-height collision.
+- Camera smoothing without excessive latency.
+- Controlled weapon sway, viewmodel bob, and recoil responses.
+
+Avoid excessive camera shake or animation that damages aiming precision.
+
+## First-Person Character Representation
+
+Implement a complete first-person viewmodel system:
+
+- Detailed hands and forearms matching the selected operative.
+- Correct weapon grip and positioning.
+- Smooth draw/holster animations.
+- Real reload animations.
+- Inspect weapon animations.
+- Ability-use hand animations.
+- Muzzle flash, casing ejection, smoke, and impact effects.
+- Separate first-person and third-person rendering representations where appropriate.
+
+Players must see complete operative models on teammates and opponents.
+
+## Gunplay
+
+Improve the existing ten-weapon catalog with:
+
+- Distinct firing animations.
+- Different sound profiles.
+- Real weapon-specific recoil behavior.
+- Predictable recoil recovery.
+- Spread and first-shot accuracy rules.
+- Movement-based accuracy penalties.
+- Head, body, and leg hit regions.
+- Damage falloff and penetration.
+- Accurate cover penetration calculations.
+- Hit markers and directional damage cues, configurable for competitive fairness.
+- Weapon pickup/drop functionality.
+- Reload cancel rules.
+- Ammo and magazine tracking.
+- Server-validated hits in multiplayer.
+
+Every firearm must have a meaningful tactical role.
+
+---
+
+# 5. ADVANCED OPERATIVE ABILITIES
+
+Preserve and substantially improve the Q/E/X ability structure for all twelve operatives.
+
+Each ability must include:
+
+- Proper animation.
+- Clear activation and cancellation rules.
+- Casting time where required.
+- Cooldown or charge tracking.
+- Visible world-space effects.
+- Audio telegraphs.
+- Collision and occlusion handling.
+- Counterplay and destruction rules.
+- AI awareness.
+- Accurate multiplayer synchronization.
+- Distinct tactical purpose.
+
+Support ability categories such as:
+
+- Reconnaissance and detection.
+- Smoke and temporary visual obstruction.
+- Shielding and defensive cover.
+- Mobility and repositioning.
+- Suppression and area denial.
+- Healing or support where balanced.
+- Deployable tactical devices.
+- Temporary environmental manipulation.
+
+Avoid abilities that are only decorative particle effects.
+
+Every selected operative must genuinely change combat decisions.
+
+Implement a central ability framework with reusable effect handling, configurable balancing parameters, and clear ability-state transitions.
+
+---
+
+# 6. FULL COMPETITIVE 5V5 GAME LOOP
+
+Implement a complete attacker-versus-defender tactical mode.
+
+Required match flow:
+
+**Main Menu → Mode Selection → Matchmaking/Offline Lobby → Map Reveal → Operative Selection → Loading → Team Spawn → Buy Phase → Round Start → Combat → Objective Resolution → Round Results → Next Round → Match Results**
+
+Use NULLSHIFT's original objective device and terminology, such as a **Null Core**, rather than copying another game's proprietary presentation.
+
+## Core Match Mechanics
+
+- Five players per team.
+- Attack and defense roles.
+- One-life-per-round standard tactical mode.
+- Buy phases with time limits.
+- Purchasable weapons, armor, and abilities.
+- Team economy and loss rewards.
+- Objective pickup, carry, plant, and defuse.
+- Valid objective-site placement.
+- Objective detonation countdown.
+- Round wins from eliminations and objective completion.
+- Side switching.
+- Configurable standard first-to-13 format with appropriate overtime rules.
+- Match-winning and match-losing sequences.
+- Reliable end-of-round cleanup and round resets.
+
+## Additional Modes
+
+Provide distinct functional modes:
+
+1. Competitive 5v5.
+2. Unranked 5v5.
+3. Fast Tactical Match.
+4. Team Deathmatch.
+5. Free-for-All Deathmatch.
+6. Practice Range.
+7. Offline Match Against AI.
+8. Custom Match with selectable map, teams, and match settings.
+
+Prioritize a complete offline tactical match and the standard 5v5 mode before developing secondary game modes.
+
+Do not describe a menu item as implemented unless its mode actually works.
+
+---
+
+# 7. REAL AI TEAMMATES AND ENEMIES
+
+Upgrade the existing four AI behavior policies into a modular tactical AI system.
+
+AI must support:
+
+- Navigation across multi-storey maps.
+- Cover evaluation.
+- Line-of-sight checks.
+- Sound-based awareness.
+- Enemy-memory states.
+- Tactical repositioning.
+- Objective planting and defense.
+- Objective defusing.
+- Team support and rotations.
+- Ability selection.
+- Weapon selection and purchasing.
+- Retreat and regroup behavior.
+- Coordinated attacks.
+- Flanking.
+- Difficulty-dependent reaction time, aim error, and planning quality.
+
+Implement configurable difficulty:
+
+Beginner, Normal, Advanced, Expert.
+
+AI must obey the same navigation, visibility, economy, and ability rules as players.
+
+Avoid omniscient enemies with perfect accuracy.
+
+Offline play should be a genuinely enjoyable complete experience, not merely a technical testing mode.
+
+---
+
+# 8. PREMIUM MENUS AND CINEMATIC UI/UX
+
+Rebuild the presentation into a coherent original AAA-style visual design.
+
+## Required Screens
+
+- Cinematic animated main menu.
+- Play and matchmaking menu.
+- Operative roster and detail screen.
+- 3D operative selection and lock-in screen.
+- Map selection and briefing.
+- Weapon collection.
+- Loadout and customization.
+- Player profile.
+- Career and match history.
+- Ranking and leaderboards.
+- Training and tutorial.
+- Settings.
+- Loading screens.
+- Pause menu.
+- End-of-round results.
+- End-of-match results.
+
+## Design Requirements
+
+Create a distinctive NULLSHIFT visual identity using sophisticated sci-fi typography, clean hierarchy, restrained neon accents, subtle holographic elements, and excellent contrast.
+
+Use:
+
+- Animated full-screen 3D backgrounds where affordable.
+- Fluid hover and transition effects.
+- Premium typography.
+- Precise alignment.
+- Consistent iconography.
+- High-resolution character portraits.
+- High-quality map preview images.
+- Smooth camera transitions.
+- Strong audio feedback.
+- Clear accessible navigation.
+- Keyboard, mouse, controller, and supported touch input.
+
+**Every button must work. Every menu must lead to functioning content.**
+
+Do not add fake buttons, placeholder tabs, decorative forms that do nothing, or simulated multiplayer status displays.
+
+---
+
+# 9. PRODUCTION-GRADE IN-GAME HUD
+
+Improve the current TacticalHudOverlay while preserving its low-occlusion philosophy.
+
+Required HUD components:
+
+- Health and shield.
+- Ammunition and magazine state.
+- Selected weapon.
+- Operative ability charges/cooldowns.
+- Dynamic minimap.
+- Team status.
+- Alive/dead indicators.
+- Round timer.
+- Attack/defense score.
+- Objective location and state.
+- Crosshair customization.
+- Context-sensitive interaction prompts.
+- Kill feed.
+- Damage direction.
+- Buy phase notification.
+- Tactical pings.
+- Scoreboard and combat report.
+
+Ensure HUD elements remain readable without obscuring the battlefield.
+
+Implement separate, configurable desktop and mobile HUD layouts instead of shrinking desktop UI into a phone viewport.
+
+---
+
+# 10. GRAPHICS, LIGHTING AND MODEL QUALITY
+
+Achieve the highest practical visual quality supported by the existing rendering technology and target hardware.
+
+Investigate and implement appropriate capabilities using the current React/Three.js rendering stack where compatible.
+
+## Rendering
+
+- Physically based rendering.
+- High-quality metallic/roughness materials.
+- Normal, occlusion, and emissive textures.
+- HDR environment lighting.
+- Physically plausible key/fill lighting.
+- Shadow maps with controlled quality settings.
+- Tone mapping and correct color handling.
+- Screen-space or alternative ambient occlusion where practical.
+- Bloom limited to emissive elements.
+- Efficient reflections and probe-based lighting.
+- Atmospheric fog.
+- GPU particles and instancing.
+- Texture streaming or progressive asset loading.
+- Level-of-detail models.
+- GPU-friendly material batching.
+- View-frustum and occlusion culling where supported.
+
+Never compromise aiming clarity with excessive bloom, motion blur, or atmospheric obstruction.
+
+## Character Quality
+
+Replace purely procedural stand-in characters with high-quality, properly rigged, original operative models where suitable licensed assets or generated designs can be integrated.
+
+Character models must have:
+
+- Clean anatomy and proportions.
+- High-quality materials.
+- Correct skeletal hierarchy.
+- Real facial or helmet design.
+- Proper hand and weapon placement.
+- Convincing movement.
+- High-quality animation blending.
+- Distinctive original visual identities.
+
+## Automatic Asset Integration
+
+Investigate approved asset sources such as Sketchfab's authorized downloadable inventory and suitable open-license asset libraries.
+
+Automate:
+
+1. Identifying required models and animations.
+2. Searching permitted downloadable assets.
+3. Checking license, author credit, download authorization, and redistribution rights.
+4. Choosing suitable models automatically.
+5. Downloading only through authorized access methods.
+6. Converting supported assets into optimized GLB/glTF.
+7. Applying material and scale corrections.
+8. Retargeting animations where compatible.
+9. Creating LODs and collision representations.
+10. Integrating assets into the game.
+11. Recording license and attribution metadata.
+
+Do not interrupt development with unnecessary manual selection screens.
+
+However, do not bypass authorization, scraping restrictions, licensing obligations, or required authentication.
+
+Generic free models should not replace NULLSHIFT's unique operative identities without appropriate adaptation and rights.
+
+Where production-ready assets cannot be obtained legally, retain an honest asset gap, improve procedural replacements, and continue developing the functional systems.
+
+---
+
+# 11. NETWORKED MULTIPLAYER ARCHITECTURE
+
+Build a reliable multiplayer foundation rather than presenting local bots as online players.
+
+Implement or prepare:
+
+- Authoritative match server.
+- Server-controlled round states.
+- Validated movement and combat.
+- Reliable team assignment.
+- Synchronized operative selection.
+- Player state replication.
+- Client-side movement prediction.
+- Server reconciliation.
+- Interpolation of remote characters.
+- Lag-compensated hit validation as appropriate.
+- Reconnect and disconnect handling.
+- Match lifecycle management.
+- Anti-cheat and exploit resistance.
+- Matchmaking and region selection.
+- Spectator mode.
+- Privacy-aware telemetry.
+- Reliable objective and economy synchronization.
+
+Choose a compatible open-source networking architecture based on the existing stack after inspecting the project.
+
+Do not claim production-safe competitive multiplayer without genuine independent-client testing, latency simulation, and server-authority validation.
+
+---
+
+# 12. RESPONSIVE DESKTOP AND MOBILE SUPPORT
+
+Design the game for widescreen desktop and fixed landscape mobile presentation.
+
+Support:
+
+- 16:9.
+- 18:9.
+- 19.5:9.
+- 20:9.
+- 21:9 where appropriate.
+- Tablets and handheld devices.
+- High-DPI displays.
+
+Mobile implementation must support:
+
+- Landscape orientation.
+- Dual-stick controls.
+- Customizable touch positions.
+- Fire, aim, crouch, jump, reload, and ability buttons.
+- Adjustable control sensitivity.
+- Safe-area handling.
+- Readable operative selection.
+- Mobile-optimized graphics.
+- Thermal and memory-aware rendering settings.
+
+Provide separate input profiles so desktop competitive play is not compromised by touch-oriented UI.
+
+Use explicit quality presets and realistic hardware benchmarks.
+
+Target consistent 60 FPS on suitable desktop hardware and 30–60 FPS on supported mobile devices, measured rather than assumed.
+
+---
+
+# 13. IMMERSIVE AUDIO AND CINEMATIC PRESENTATION
+
+Implement a professional layered audio system.
+
+Required:
+
+- Distinct weapon shots.
+- Indoor/outdoor firearm acoustics.
+- Different surface footsteps.
+- Directional enemy audio.
+- Positional ability sounds.
+- Character callouts.
+- Reload sounds.
+- Objective sounds.
+- Victory and defeat transitions.
+- Environmental ambient layers.
+- Interface sounds.
+- Optional adaptive soundtrack.
+
+Use audio mixing that preserves the competitive importance of footsteps, weapon direction, and ability cues.
+
+Include separate audio controls for master, effects, music, and voice.
+
+Avoid overly loud effects or continuous music masking tactical information.
+
+---
+
+# 14. ANIMATIONS, PHYSICS AND WORLD INTERACTIONS
+
+Implement believable interactions between players, weapons, and the environment.
+
+Include:
+
+- Reliable capsule collision.
+- Accurate collision against walls, doors, and cover.
+- Character animation state machines.
+- Responsive hit reactions.
+- Controlled death/KO physics.
+- Weapon and item pickups.
+- Interactive doors.
+- Breakable elements only where designed for competitive balance.
+- Physics-based props where performance permits.
+- Functional elevators, lifts, and environmental devices where included.
+- Correct alignment between animated rigs and collision bodies.
+- Navigation updates for changing environments.
+- Clear interaction prompts.
+
+Do not add environmental mechanics that introduce unpredictable competitive outcomes.
+
+---
+
+# 15. PERFORMANCE AND TECHNICAL ARCHITECTURE
+
+Maintain a professional, modular project structure.
+
+Recommended responsibilities include:
+
+- Game state and match lifecycle.
+- Operative definitions.
+- Operative selection.
+- Ability execution.
+- Weapon handling.
+- Physics and collision.
+- Character animation.
+- Map streaming and loading.
+- AI navigation and decision-making.
+- Networking.
+- Audio.
+- Rendering and graphics settings.
+- HUD and menus.
+- Persistence and player settings.
+- Testing and telemetry.
+
+Improve existing components instead of introducing redundant parallel systems.
+
+Use typed interfaces and data-driven catalogs.
+
+Move expensive repeated calculations out of React render cycles.
+
+Avoid repeated shader compilation, unmanaged textures, excessive draw calls, memory leaks, and avoidable per-frame allocations.
+
+Use spatial partitioning, instancing, geometry merging, and asset compression where useful.
+
+Provide loading-progress feedback for substantial assets.
+
+---
+
+# 16. IMPLEMENTATION ORDER — EXECUTE, DON'T JUST PLAN
+
+## PHASE 1 — COMPLETE OPERATIVE SELECTION
+
+Implement all twelve operatives in a proper interactive 3D selection screen.
+
+Integrate actual playable character selection, animations, abilities, team slots, and lock-in logic.
+
+This phase is incomplete until the selected operative enters the live match correctly.
+
+## PHASE 2 — FIRST FULL-SCALE AAA-STYLE MAP
+
+Upgrade **AEGIS-7 Orbital Relay** into a complete, visually detailed, multi-route tactical map.
+
+Implement real geometry, cover, objective sites, interiors, exterior vistas, navigation, lighting, and collision.
+
+Do not begin by procedurally expanding all six maps into low-quality empty environments.
+
+Establish a polished, functional benchmark map first.
+
+## PHASE 3 — FINISH THE COMPLETE MATCH LOOP
+
+Connect operative selection, spawn, buy phase, combat, abilities, objectives, round resolution, and match results.
+
+Deliver a complete offline match with competent AI opponents.
+
+## PHASE 4 — UPGRADE COMBAT AND CHARACTER QUALITY
+
+Finish gunplay, animations, weapon models, interaction, sound, third-person operative models, and tactical abilities.
+
+## PHASE 5 — REMAINING FIVE MAPS
+
+Expand all remaining environments using the quality and gameplay standards validated on AEGIS-7.
+
+Each map must retain its own architecture, material identity, and tactical mechanic.
+
+## PHASE 6 — COMPLETE THE UI/UX
+
+Implement the full premium menu system, operative roster, customization, career, settings, loading, and match-result interfaces.
+
+## PHASE 7 — MULTIPLAYER AND ADDITIONAL MODES
+
+Finish and validate authoritative multiplayer, then implement additional match modes and progression systems.
+
+## PHASE 8 — QUALITY ASSURANCE AND OPTIMIZATION
+
+Run full automated and manual playtesting across supported hardware and inputs.
+
+Fix all critical gameplay, rendering, collision, networking, and menu issues before declaring production readiness.
+
+---
+
+# 17. MANDATORY ACCEPTANCE TESTS
+
+The transformation is not complete until the following can be demonstrated:
+
+- All 12 operatives are visually distinct, selectable, and playable.
+- Operative selection displays real animated 3D characters.
+- The Lock In button works.
+- The selected operative correctly loads into gameplay.
+- Each operative's three abilities operate as defined.
+- All ten weapons function with their correct damage characteristics.
+- All six maps load and support actual navigation.
+- Every map has functional A/B objective sites.
+- Environments have substantial detailed geometry rather than empty space.
+- Player collision works in every accessible area.
+- No player can escape or become permanently trapped in map geometry.
+- Enemy AI can navigate, shoot, use abilities, and complete objectives.
+- Full rounds can be played from beginning to end.
+- Economy calculations remain correct.
+- The objective can be planted, defended, and defused.
+- Full matches produce correct winners and results.
+- HUD and minimap correctly represent map and gameplay state.
+- Menus and input controls function as intended.
+- Save data and user settings persist correctly.
+- No critical browser console or build errors occur.
+- Existing tests remain passing.
+- New selection, map, AI, combat, and match-flow regression tests are added.
+- Desktop and mobile layouts are verified at representative resolutions.
+- GPU performance, memory use, and frame pacing are measured.
+- Actual multiplayer is verified using separate clients and server validation before being labeled ready.
+
+Perform screenshot and gameplay verification of the main menu, operative selection, map loading, live combat, buy menu, objective sites, and match results.
+
+Test actual interactions, not only whether components render.
+
+# 18. FINAL EXECUTION RULES
+
+**DO NOT:**
+
+- Rebuild the entire project unnecessarily.
+- Replace functioning systems with superficial demos.
+- Claim multiplayer is working when it is only simulated.
+- Use generic primitive characters as the finished operative models.
+- Create huge empty maps for the sake of scale.
+- Add interface buttons that do not function.
+- Use images as substitutes for actual 3D gameplay.
+- Make all twelve operatives visually identical.
+- Copy VALORANT characters, branded art, sound, map layouts, or proprietary assets.
+- Break existing tests.
+- Sacrifice gameplay readability for unnecessary visual effects.
+- Claim AAA or production readiness without objective verification.
+
+**YOU MUST:**
+
+- Inspect the actual project.
+- Reuse its verified foundations.
+- Implement real working gameplay.
+- Create a visually sophisticated and original operative selection experience.
+- Build substantial, polished 3D tactical environments.
+- Integrate character models, animations, weapons, abilities, and the HUD into one coherent game.
+- Maintain technical quality and competitive balance.
+- Verify functionality at every milestone.
+- Continue with the next feasible implementation phase without repeatedly requesting routine design decisions.
+- Report which systems are complete, partially complete, blocked, or unverified, with evidence.
+
+## FINAL DEFINITION OF SUCCESS
+
+A player launches PROJECT NULLSHIFT, sees a premium animated main menu, selects a mode, enters an operative-selection lobby, inspects and locks in one of twelve fully modeled 3D operatives, loads into a large and detailed tactical environment, purchases equipment, coordinates with teammates, uses distinctive abilities, fights responsive enemies, completes tactical objectives, and finishes a complete match with cinematic results and progression.
+
+**PROJECT NULLSHIFT must become a real, original, visually exceptional, mechanically complete tactical FPS—not merely a technical prototype with impressive descriptions.**
+
+**BEGIN BY IMPLEMENTING THE COMPLETE OPERATIVE-SELECTION EXPERIENCE AND THE FIRST FULL-SCALE PLAYABLE MAP DIRECTLY IN THE EXISTING CODEBASE.**

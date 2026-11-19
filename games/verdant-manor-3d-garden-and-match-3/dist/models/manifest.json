@@ -1,0 +1,234 @@
+[
+  {
+    "uid": "7f5e148d83474488b7d1586004001004",
+    "name": "Marble Vase 001",
+    "author": "PK_3D_Art",
+    "viewerUrl": "https://sketchfab.com/3d-models/marble-vase-001-7f5e148d83474488b7d1586004001004",
+    "thumbnailUrl": "https://media.sketchfab.com/models/7f5e148d83474488b7d1586004001004/thumbnails/bea7d5c965a6471da64ca7f36b224920/e0989313e1d5440fb309f9c79f7ebe9a.jpeg",
+    "license": {
+      "slug": "by",
+      "label": "CC Attribution",
+      "commercialOk": true,
+      "attributionRequired": true,
+      "attributionText": "\"Marble Vase 001\" by PK_3D_Art (CC Attribution) — https://sketchfab.com/3d-models/marble-vase-001-7f5e148d83474488b7d1586004001004"
+    },
+    "profile": "mobile",
+    "rawBytes": 2767344,
+    "optimizedBytes": 521888,
+    "savingsPct": 81,
+    "triangleCount": 10000,
+    "materialCount": 1,
+    "textureCount": 3,
+    "hasRig": false,
+    "animations": [],
+    "localGlbUrl": "/models/optimized/7f5e148d83474488b7d1586004001004.glb",
+    "importedAt": "2026-11-16T16:12:28.925Z"
+  },
+  {
+    "uid": "83aab69f2b5146eaa009158fd9ded699",
+    "name": "duck_animation",
+    "author": "ap-school",
+    "viewerUrl": "https://sketchfab.com/3d-models/duck-animation-83aab69f2b5146eaa009158fd9ded699",
+    "thumbnailUrl": "https://media.sketchfab.com/models/83aab69f2b5146eaa009158fd9ded699/thumbnails/39af32053a4a4b93b9ddd89d99872b11/dce7cb10f04e41dfaca52cce455b5cfe.jpeg",
+    "license": {
+      "slug": "by",
+      "label": "CC Attribution",
+      "commercialOk": true,
+      "attributionRequired": true,
+      "attributionText": "\"duck_animation\" by ap-school (CC Attribution) — https://sketchfab.com/3d-models/duck-animation-83aab69f2b5146eaa009158fd9ded699"
+    },
+    "profile": "mobile",
+    "rawBytes": 4437020,
+    "optimizedBytes": 1379544,
+    "savingsPct": 69,
+    "triangleCount": 19315,
+    "materialCount": 1,
+    "textureCount": 3,
+    "hasRig": true,
+    "animations": [
+      {
+        "name": "Animation",
+        "duration": 15
+      }
+    ],
+    "localGlbUrl": "/models/optimized/83aab69f2b5146eaa009158fd9ded699.glb",
+    "importedAt": "2026-11-16T16:11:31.292Z"
+  },
+  {
+    "uid": "b26f40c638484045aa55d50ef200f96d",
+    "name": "stone Japanese lantern",
+    "author": "CubeModeller",
+    "viewerUrl": "https://sketchfab.com/3d-models/stone-japanese-lantern-b26f40c638484045aa55d50ef200f96d",
+    "thumbnailUrl": "https://media.sketchfab.com/models/b26f40c638484045aa55d50ef200f96d/thumbnails/13d175997c324266abdde1fcdb33945b/2e635c8a43f34b37a2422d552e486568.jpeg",
+    "license": {
+      "slug": "by",
+      "label": "CC Attribution",
+      "commercialOk": true,
+      "attributionRequired": true,
+      "attributionText": "\"stone Japanese lantern\" by CubeModeller (CC Attribution) — https://sketchfab.com/3d-models/stone-japanese-lantern-b26f40c638484045aa55d50ef200f96d"
+    },
+    "profile": "mobile",
+    "rawBytes": 161340,
+    "optimizedBytes": 32828,
+    "savingsPct": 80,
+    "triangleCount": 2792,
+    "materialCount": 1,
+    "textureCount": 0,
+    "hasRig": false,
+    "animations": [],
+    "localGlbUrl": "/models/optimized/b26f40c638484045aa55d50ef200f96d.glb",
+    "importedAt": "2026-11-16T16:10:38.630Z"
+  },
+  {
+    "uid": "32f5f56b381f4489bf7363af995fd5fa",
+    "name": "flower vase . Pottery vase",
+    "author": "maherart",
+    "viewerUrl": "https://sketchfab.com/3d-models/flower-vase-pottery-vase-32f5f56b381f4489bf7363af995fd5fa",
+    "thumbnailUrl": "https://media.sketchfab.com/models/32f5f56b381f4489bf7363af995fd5fa/thumbnails/32fe8515f17f410d89d122e1ec910e3e/f0b3efc3b8e641adb95ed7afc4f23798.jpeg",
+    "license": {
+      "slug": "by",
+      "label": "CC Attribution",
+      "commercialOk": true,
+      "attributionRequired": true,
+      "attributionText": "\"flower vase . Pottery vase\" by maherart (CC Attribution) — https://sketchfab.com/3d-models/flower-vase-pottery-vase-32f5f56b381f4489bf7363af995fd5fa"
+    },
+    "profile": "mobile",
+    "rawBytes": 2725788,
+    "optimizedBytes": 1482660,
+    "savingsPct": 46,
+    "triangleCount": 8192,
+    "materialCount": 1,
+    "textureCount": 4,
+    "hasRig": false,
+    "animations": [],
+    "localGlbUrl": "/models/optimized/32f5f56b381f4489bf7363af995fd5fa.glb",
+    "importedAt": "2026-11-16T16:10:28.926Z"
+  },
+  {
+    "uid": "dd21de1a1a9a400b9797ab8310b0f3e4",
+    "name": "Greek Goddess Bust",
+    "author": "ProfMusanches",
+    "viewerUrl": "https://sketchfab.com/3d-models/greek-goddess-bust-dd21de1a1a9a400b9797ab8310b0f3e4",
+    "thumbnailUrl": "https://media.sketchfab.com/models/dd21de1a1a9a400b9797ab8310b0f3e4/thumbnails/a60ac0e4a9164a1eba32e0be738e4773/fdaa1422c2724c4cb7dbbb78d46ac816.jpeg",
+    "license": {
+      "slug": "by",
+      "label": "CC Attribution",
+      "commercialOk": true,
+      "attributionRequired": true,
+      "attributionText": "\"Greek Goddess Bust\" by ProfMusanches (CC Attribution) — https://sketchfab.com/3d-models/greek-goddess-bust-dd21de1a1a9a400b9797ab8310b0f3e4"
+    },
+    "profile": "mobile",
+    "rawBytes": 1200688,
+    "optimizedBytes": 183096,
+    "savingsPct": 85,
+    "triangleCount": 9998,
+    "materialCount": 1,
+    "textureCount": 1,
+    "hasRig": false,
+    "animations": [],
+    "localGlbUrl": "/models/optimized/dd21de1a1a9a400b9797ab8310b0f3e4.glb",
+    "importedAt": "2026-11-16T16:10:14.044Z"
+  },
+  {
+    "uid": "7054944973104103912c5253c3cbd3a0",
+    "name": "Carved Timber Garden Bench",
+    "author": "RapidAssets",
+    "viewerUrl": "https://sketchfab.com/models/7054944973104103912c5253c3cbd3a0",
+    "license": {
+      "slug": "by",
+      "label": "CC Attribution",
+      "commercialOk": true,
+      "attributionRequired": true,
+      "attributionText": "\"Carved Timber Garden Bench\" by RapidAssets (CC Attribution) — https://sketchfab.com/models/7054944973104103912c5253c3cbd3a0"
+    },
+    "profile": "web",
+    "rawBytes": 2001820,
+    "optimizedBytes": 1255848,
+    "savingsPct": 37,
+    "triangleCount": 12668,
+    "materialCount": 1,
+    "textureCount": 3,
+    "hasRig": false,
+    "animations": [],
+    "localGlbUrl": "/models/optimized/7054944973104103912c5253c3cbd3a0.glb",
+    "importedAt": "2026-11-16T16:07:46.254Z"
+  },
+  {
+    "uid": "c174247e54e24671a2f9d6b0a1e8e2f3",
+    "name": "Garden Pavilion Gazebo",
+    "author": "Sketchfab Community",
+    "viewerUrl": "https://sketchfab.com/models/c174247e54e24671a2f9d6b0a1e8e2f3",
+    "license": {
+      "slug": "by",
+      "label": "CC Attribution",
+      "commercialOk": true,
+      "attributionRequired": true,
+      "attributionText": "\"Garden Pavilion Gazebo\" by Sketchfab Community (CC Attribution) — https://sketchfab.com/models/c174247e54e24671a2f9d6b0a1e8e2f3"
+    },
+    "profile": "web",
+    "rawBytes": 1525840,
+    "optimizedBytes": 1357408,
+    "savingsPct": 11,
+    "triangleCount": 11826,
+    "materialCount": 1,
+    "textureCount": 3,
+    "hasRig": false,
+    "animations": [],
+    "localGlbUrl": "/models/optimized/c174247e54e24671a2f9d6b0a1e8e2f3.glb",
+    "importedAt": "2026-11-16T16:07:46.109Z"
+  },
+  {
+    "uid": "a9b65c3779574b2e801a18baab69c8c3",
+    "name": "Classical Tiered Fountain",
+    "author": "Sketchfab Community",
+    "viewerUrl": "https://sketchfab.com/models/a9b65c3779574b2e801a18baab69c8c3",
+    "license": {
+      "slug": "by",
+      "label": "CC Attribution",
+      "commercialOk": true,
+      "attributionRequired": true,
+      "attributionText": "\"Classical Tiered Fountain\" by Sketchfab Community (CC Attribution) — https://sketchfab.com/models/a9b65c3779574b2e801a18baab69c8c3"
+    },
+    "profile": "web",
+    "rawBytes": 1834780,
+    "optimizedBytes": 1139208,
+    "savingsPct": 38,
+    "triangleCount": 18175,
+    "materialCount": 1,
+    "textureCount": 1,
+    "hasRig": false,
+    "animations": [],
+    "localGlbUrl": "/models/optimized/a9b65c3779574b2e801a18baab69c8c3.glb",
+    "importedAt": "2026-11-16T16:07:45.122Z"
+  },
+  {
+    "uid": "80f8d9a6dadc411e89ca366cb0cfb0d9",
+    "name": "Animated Flying Fluttering Butterfly Loop",
+    "author": "LasquetiSpice",
+    "viewerUrl": "https://sketchfab.com/3d-models/animated-flying-fluttering-butterfly-loop-80f8d9a6dadc411e89ca366cb0cfb0d9",
+    "thumbnailUrl": "https://media.sketchfab.com/models/80f8d9a6dadc411e89ca366cb0cfb0d9/thumbnails/7959cde583af4022a2889bdff5c13f99/f77af212e3204d7c8ac5d9dd20af8f3d.jpeg",
+    "license": {
+      "slug": "by",
+      "label": "CC Attribution",
+      "commercialOk": true,
+      "attributionRequired": true,
+      "attributionText": "\"Animated Flying Fluttering Butterfly Loop\" by LasquetiSpice (CC Attribution) — https://sketchfab.com/3d-models/animated-flying-fluttering-butterfly-loop-80f8d9a6dadc411e89ca366cb0cfb0d9"
+    },
+    "profile": "mobile",
+    "rawBytes": 4062652,
+    "optimizedBytes": 1480468,
+    "savingsPct": 64,
+    "triangleCount": 9356,
+    "materialCount": 1,
+    "textureCount": 4,
+    "hasRig": true,
+    "animations": [
+      {
+        "name": "Animation",
+        "duration": 9.6
+      }
+    ],
+    "localGlbUrl": "/models/optimized/80f8d9a6dadc411e89ca366cb0cfb0d9.glb",
+    "importedAt": "2026-11-15T15:04:18.608Z"
+  }
+]

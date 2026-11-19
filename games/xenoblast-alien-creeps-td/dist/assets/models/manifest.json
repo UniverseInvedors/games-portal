@@ -1,0 +1,451 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-16T16:23:08.058Z",
+  "assets": {
+    "turret_mg": {
+      "slot": "turret_mg",
+      "uid": "d855153c0e844a49b2ccf56c77f178b5",
+      "name": "Sci-Fi Turret Animated",
+      "localUrl": "/assets/models/turret_mg.glb",
+      "targetHeight": 2.1,
+      "author": "Berk Gedik",
+      "authorUrl": "https://sketchfab.com/berkgedik",
+      "modelUrl": "https://sketchfab.com/3d-models/sci-fi-turret-animated-d855153c0e844a49b2ccf56c77f178b5",
+      "thumbnailUrl": "https://media.sketchfab.com/models/d855153c0e844a49b2ccf56c77f178b5/thumbnails/b396b4ff557444d991138f9c7ca9b71e/3157aade465244c7afee37c3745cc411.jpeg",
+      "licenseSlug": "by",
+      "licenseLabel": "CC Attribution",
+      "isCommercialSafe": true,
+      "attributionText": "\"Sci-Fi Turret Animated\" (https://sketchfab.com/3d-models/sci-fi-turret-animated-d855153c0e844a49b2ccf56c77f178b5) by Berk Gedik (https://sketchfab.com/berkgedik) licensed under CC Attribution.",
+      "isAnimated": true,
+      "importedAt": "2026-11-16T16:11:28.972Z",
+      "optimization": {
+        "profile": "web",
+        "toolChain": [
+          "glTF-Transform",
+          "glTF-Transform:resample",
+          "meshoptimizer:meshopt"
+        ],
+        "blenderUsed": false,
+        "originalBytes": 2604652,
+        "optimizedBytes": 1909692,
+        "savingsPercent": 26.7,
+        "faceCount": 10876,
+        "meshCount": 16,
+        "materialCount": 1,
+        "hasSkin": true,
+        "animationCount": 1,
+        "animationNames": [
+          "Bone Test"
+        ]
+      }
+    },
+    "turret_laser": {
+      "slot": "turret_laser",
+      "uid": "28fb90b851b5454589f5170b08c8c66d",
+      "name": "Sci-fi Turret 3",
+      "localUrl": "/assets/models/turret_laser.glb",
+      "targetHeight": 2.35,
+      "author": "everlasting17th",
+      "authorUrl": "https://sketchfab.com/everlastinggrey",
+      "modelUrl": "https://sketchfab.com/3d-models/sci-fi-turret-3-28fb90b851b5454589f5170b08c8c66d",
+      "thumbnailUrl": "https://media.sketchfab.com/models/28fb90b851b5454589f5170b08c8c66d/thumbnails/d6d46352e4ae43cc8ca504757bcc80ce/66bae9ea8a864f8b87a4e6543b019900.jpeg",
+      "licenseSlug": "by",
+      "licenseLabel": "CC Attribution",
+      "isCommercialSafe": true,
+      "attributionText": "\"Sci-fi Turret 3\" (https://sketchfab.com/3d-models/sci-fi-turret-3-28fb90b851b5454589f5170b08c8c66d) by everlasting17th (https://sketchfab.com/everlastinggrey) licensed under CC Attribution.",
+      "isAnimated": false,
+      "importedAt": "2026-11-16T16:11:38.804Z",
+      "optimization": {
+        "profile": "web",
+        "toolChain": [
+          "glTF-Transform",
+          "meshoptimizer:simplify",
+          "meshoptimizer:meshopt"
+        ],
+        "blenderUsed": false,
+        "originalBytes": 3795860,
+        "optimizedBytes": 3407528,
+        "savingsPercent": 10.2,
+        "faceCount": 5842,
+        "meshCount": 1,
+        "materialCount": 1,
+        "hasSkin": false,
+        "animationCount": 0,
+        "animationNames": []
+      }
+    },
+    "turret_rocket": {
+      "slot": "turret_rocket",
+      "uid": "9e0b1bcc84734c69a21e9c865fcfc172",
+      "name": "MissileTower_Building002",
+      "localUrl": "/assets/models/turret_rocket.glb",
+      "targetHeight": 2.25,
+      "author": "Christian Rudorff",
+      "authorUrl": "https://sketchfab.com/ChristianRudorff",
+      "modelUrl": "https://sketchfab.com/3d-models/missiletower-building002-9e0b1bcc84734c69a21e9c865fcfc172",
+      "thumbnailUrl": "https://media.sketchfab.com/models/9e0b1bcc84734c69a21e9c865fcfc172/thumbnails/e77bf0d522244e59a7cbf30bed778fb6/e480e1ca984746a5946d5939604be155.jpeg",
+      "licenseSlug": "by",
+      "licenseLabel": "CC Attribution",
+      "isCommercialSafe": true,
+      "attributionText": "\"MissileTower_Building002\" (https://sketchfab.com/3d-models/missiletower-building002-9e0b1bcc84734c69a21e9c865fcfc172) by Christian Rudorff (https://sketchfab.com/ChristianRudorff) licensed under CC Attribution.",
+      "isAnimated": true,
+      "importedAt": "2026-11-16T16:22:13.576Z",
+      "optimization": {
+        "profile": "web",
+        "toolChain": [
+          "glTF-Transform",
+          "glTF-Transform:resample",
+          "meshoptimizer:meshopt"
+        ],
+        "blenderUsed": false,
+        "originalBytes": 4342332,
+        "optimizedBytes": 4259284,
+        "savingsPercent": 1.9,
+        "faceCount": 1754,
+        "meshCount": 30,
+        "materialCount": 1,
+        "hasSkin": true,
+        "animationCount": 1,
+        "animationNames": [
+          "Armature|activate_animation"
+        ]
+      }
+    },
+    "alien_bug": {
+      "slot": "alien_bug",
+      "uid": "505b631084cf498c978f6448705adb79",
+      "name": "Hybrid_Spider_Animated",
+      "localUrl": "/assets/models/alien_bug.glb",
+      "targetHeight": 1.15,
+      "author": "R-LAB",
+      "authorUrl": "https://sketchfab.com/rakshaan",
+      "modelUrl": "https://sketchfab.com/3d-models/hybrid-spider-animated-505b631084cf498c978f6448705adb79",
+      "thumbnailUrl": "https://media.sketchfab.com/models/505b631084cf498c978f6448705adb79/thumbnails/1b7344f91d4749069338de95a1222ab6/47c380ba8a714d98a3c2395086853d7a.jpeg",
+      "licenseSlug": "by",
+      "licenseLabel": "CC Attribution",
+      "isCommercialSafe": true,
+      "attributionText": "\"Hybrid_Spider_Animated\" (https://sketchfab.com/3d-models/hybrid-spider-animated-505b631084cf498c978f6448705adb79) by R-LAB (https://sketchfab.com/rakshaan) licensed under CC Attribution.",
+      "isAnimated": true,
+      "importedAt": "2026-11-16T16:15:47.183Z",
+      "optimization": {
+        "profile": "web",
+        "toolChain": [
+          "glTF-Transform",
+          "glTF-Transform:resample",
+          "meshoptimizer:meshopt"
+        ],
+        "blenderUsed": false,
+        "originalBytes": 2271764,
+        "optimizedBytes": 1308780,
+        "savingsPercent": 42.4,
+        "faceCount": 4604,
+        "meshCount": 1,
+        "materialCount": 1,
+        "hasSkin": true,
+        "animationCount": 11,
+        "animationNames": [
+          "ArmatureAction",
+          "ArmatureAction.001",
+          "Armature|Aggressive",
+          "Armature|ArmatureAction",
+          "Armature|Cube.006Action",
+          "Armature|Death",
+          "Armature|Idle",
+          "Armature|Spit",
+          "Armature|Walking",
+          "Armature|Walking.",
+          "Cube.006|Cube.006Action"
+        ]
+      }
+    },
+    "alien_spitter": {
+      "slot": "alien_spitter",
+      "uid": "a710eb3eaeab4200a2ff83abc9b0c4db",
+      "name": "Lizardman",
+      "localUrl": "/assets/models/alien_spitter.glb",
+      "targetHeight": 1.45,
+      "author": "DJMaesen",
+      "authorUrl": "https://sketchfab.com/bumstrum",
+      "modelUrl": "https://sketchfab.com/3d-models/lizardman-a710eb3eaeab4200a2ff83abc9b0c4db",
+      "thumbnailUrl": "https://media.sketchfab.com/models/a710eb3eaeab4200a2ff83abc9b0c4db/thumbnails/976f0fe267eb4e489180e2949b61cf5c/9b9eeda4fc2e49e4ad0731c01cb32f06.jpeg",
+      "licenseSlug": "by",
+      "licenseLabel": "CC Attribution",
+      "isCommercialSafe": true,
+      "attributionText": "\"Lizardman\" (https://sketchfab.com/3d-models/lizardman-a710eb3eaeab4200a2ff83abc9b0c4db) by DJMaesen (https://sketchfab.com/bumstrum) licensed under CC Attribution.",
+      "isAnimated": true,
+      "importedAt": "2026-11-16T16:22:14.491Z",
+      "optimization": {
+        "profile": "web",
+        "toolChain": [
+          "glTF-Transform",
+          "glTF-Transform:resample",
+          "meshoptimizer:meshopt"
+        ],
+        "blenderUsed": false,
+        "originalBytes": 2978640,
+        "optimizedBytes": 2875364,
+        "savingsPercent": 3.5,
+        "faceCount": 6582,
+        "meshCount": 1,
+        "materialCount": 1,
+        "hasSkin": true,
+        "animationCount": 1,
+        "animationNames": [
+          "idleloop"
+        ]
+      }
+    },
+    "alien_goliath": {
+      "slot": "alien_goliath",
+      "uid": "402848d2da654330bc9c3f23ec06cf8d",
+      "name": "Maw of the Void - Free Creature Asset",
+      "localUrl": "/assets/models/alien_goliath.glb",
+      "targetHeight": 2.05,
+      "author": "Yury Misiyuk",
+      "authorUrl": "https://sketchfab.com/Tim0",
+      "modelUrl": "https://sketchfab.com/3d-models/maw-of-the-void-free-creature-asset-402848d2da654330bc9c3f23ec06cf8d",
+      "thumbnailUrl": "https://media.sketchfab.com/models/402848d2da654330bc9c3f23ec06cf8d/thumbnails/a89d8bcd5f044f20942fff417033ad8d/364fc4d253414b8fbaf81f28918e1713.jpeg",
+      "licenseSlug": "by",
+      "licenseLabel": "CC Attribution",
+      "isCommercialSafe": true,
+      "attributionText": "\"Maw of the Void - Free Creature Asset\" (https://sketchfab.com/3d-models/maw-of-the-void-free-creature-asset-402848d2da654330bc9c3f23ec06cf8d) by Yury Misiyuk (https://sketchfab.com/Tim0) licensed under CC Attribution.",
+      "isAnimated": true,
+      "importedAt": "2026-11-16T16:22:15.431Z",
+      "optimization": {
+        "profile": "web",
+        "toolChain": [
+          "glTF-Transform",
+          "glTF-Transform:resample",
+          "meshoptimizer:meshopt"
+        ],
+        "blenderUsed": false,
+        "originalBytes": 5989044,
+        "optimizedBytes": 3860492,
+        "savingsPercent": 35.5,
+        "faceCount": 13308,
+        "meshCount": 1,
+        "materialCount": 1,
+        "hasSkin": true,
+        "animationCount": 1,
+        "animationNames": [
+          "rigAction"
+        ]
+      }
+    },
+    "alien_stalker": {
+      "slot": "alien_stalker",
+      "uid": "01323e4b2563430f9da85cd255b6e176",
+      "name": "Insectoid Monster Rig",
+      "localUrl": "/assets/models/alien_stalker.glb",
+      "targetHeight": 1.65,
+      "author": "DM-913",
+      "authorUrl": "https://sketchfab.com/SuperKapoo913",
+      "modelUrl": "https://sketchfab.com/3d-models/insectoid-monster-rig-01323e4b2563430f9da85cd255b6e176",
+      "thumbnailUrl": "https://media.sketchfab.com/models/01323e4b2563430f9da85cd255b6e176/thumbnails/6e9c619806d7474a8ae981a81028bb11/d04dcfcafedf403abe55c1ab6778a229.jpeg",
+      "licenseSlug": "by",
+      "licenseLabel": "CC Attribution",
+      "isCommercialSafe": true,
+      "attributionText": "\"Insectoid Monster Rig\" (https://sketchfab.com/3d-models/insectoid-monster-rig-01323e4b2563430f9da85cd255b6e176) by DM-913 (https://sketchfab.com/SuperKapoo913) licensed under CC Attribution.",
+      "isAnimated": true,
+      "importedAt": "2026-11-16T16:12:51.282Z",
+      "optimization": {
+        "profile": "web",
+        "toolChain": [
+          "glTF-Transform",
+          "glTF-Transform:resample",
+          "meshoptimizer:meshopt"
+        ],
+        "blenderUsed": false,
+        "originalBytes": 4185980,
+        "optimizedBytes": 3418132,
+        "savingsPercent": 18.3,
+        "faceCount": 13156,
+        "meshCount": 2,
+        "materialCount": 2,
+        "hasSkin": true,
+        "animationCount": 1,
+        "animationNames": [
+          "Prowl"
+        ]
+      }
+    },
+    "alien_razorwing": {
+      "slot": "alien_razorwing",
+      "uid": "b458af2e4e6f4c61849ad4e1d69e89b1",
+      "name": "Eyebeast - Animated",
+      "localUrl": "/assets/models/alien_razorwing.glb",
+      "targetHeight": 1.55,
+      "author": "nodoxi",
+      "authorUrl": "https://sketchfab.com/nodoxi",
+      "modelUrl": "https://sketchfab.com/3d-models/eyebeast-animated-b458af2e4e6f4c61849ad4e1d69e89b1",
+      "thumbnailUrl": "https://media.sketchfab.com/models/b458af2e4e6f4c61849ad4e1d69e89b1/thumbnails/1c0515e3c03b497cba2536345652ba07/9075799c901a4a14ab5669c239fc19cd.jpeg",
+      "licenseSlug": "by",
+      "licenseLabel": "CC Attribution",
+      "isCommercialSafe": true,
+      "attributionText": "\"Eyebeast - Animated\" (https://sketchfab.com/3d-models/eyebeast-animated-b458af2e4e6f4c61849ad4e1d69e89b1) by nodoxi (https://sketchfab.com/nodoxi) licensed under CC Attribution.",
+      "isAnimated": true,
+      "importedAt": "2026-11-16T16:12:57.917Z",
+      "optimization": {
+        "profile": "web",
+        "toolChain": [
+          "glTF-Transform",
+          "glTF-Transform:resample",
+          "meshoptimizer:meshopt"
+        ],
+        "blenderUsed": false,
+        "originalBytes": 3549640,
+        "optimizedBytes": 3115864,
+        "savingsPercent": 12.2,
+        "faceCount": 9298,
+        "meshCount": 1,
+        "materialCount": 1,
+        "hasSkin": true,
+        "animationCount": 1,
+        "animationNames": [
+          "Take 001"
+        ]
+      }
+    },
+    "alien_boss": {
+      "slot": "alien_boss",
+      "uid": "b28e112b6cd9420f92b2940cc32144c9",
+      "name": "Creature \"Wrecker\"",
+      "localUrl": "/assets/models/alien_boss.glb",
+      "targetHeight": 3.15,
+      "author": "ImADefaultCube117",
+      "authorUrl": "https://sketchfab.com/20193dd085",
+      "modelUrl": "https://sketchfab.com/3d-models/creature-wrecker-b28e112b6cd9420f92b2940cc32144c9",
+      "thumbnailUrl": "https://media.sketchfab.com/models/b28e112b6cd9420f92b2940cc32144c9/thumbnails/60e3d6c832bc4e3a998439ef7928b9d6/f3f600dec5864a63baa5efe310aa5983.jpeg",
+      "licenseSlug": "by",
+      "licenseLabel": "CC Attribution",
+      "isCommercialSafe": true,
+      "attributionText": "\"Creature \"Wrecker\"\" (https://sketchfab.com/3d-models/creature-wrecker-b28e112b6cd9420f92b2940cc32144c9) by ImADefaultCube117 (https://sketchfab.com/20193dd085) licensed under CC Attribution.",
+      "isAnimated": true,
+      "importedAt": "2026-11-16T16:13:09.749Z",
+      "optimization": {
+        "profile": "web",
+        "toolChain": [
+          "glTF-Transform",
+          "glTF-Transform:resample",
+          "meshoptimizer:simplify",
+          "meshoptimizer:meshopt"
+        ],
+        "blenderUsed": false,
+        "originalBytes": 6711192,
+        "optimizedBytes": 5664808,
+        "savingsPercent": 15.6,
+        "faceCount": 23994,
+        "meshCount": 2,
+        "materialCount": 2,
+        "hasSkin": false,
+        "animationCount": 1,
+        "animationNames": [
+          "Modelo_LP|MCH_Rotation_targetAction"
+        ]
+      }
+    },
+    "heli_support": {
+      "slot": "heli_support",
+      "uid": "55890e9ec4cd4c6d82ea0ef9b4a50d11",
+      "name": "Tiger Helicopter Low Poly",
+      "localUrl": "/assets/models/heli_support.glb",
+      "targetHeight": 2.1,
+      "author": "Dreyx",
+      "authorUrl": "https://sketchfab.com/Dreyx",
+      "modelUrl": "https://sketchfab.com/3d-models/tiger-helicopter-low-poly-55890e9ec4cd4c6d82ea0ef9b4a50d11",
+      "thumbnailUrl": "https://media.sketchfab.com/models/55890e9ec4cd4c6d82ea0ef9b4a50d11/thumbnails/52cd546b611848fdb962c16d79ce488b/b983bbf26fed4a10b353bd68df30c92c.jpeg",
+      "licenseSlug": "by",
+      "licenseLabel": "CC Attribution",
+      "isCommercialSafe": true,
+      "attributionText": "\"Tiger Helicopter Low Poly\" (https://sketchfab.com/3d-models/tiger-helicopter-low-poly-55890e9ec4cd4c6d82ea0ef9b4a50d11) by Dreyx (https://sketchfab.com/Dreyx) licensed under CC Attribution.",
+      "isAnimated": false,
+      "importedAt": "2026-11-16T16:13:13.884Z",
+      "optimization": {
+        "profile": "web",
+        "toolChain": [
+          "glTF-Transform",
+          "meshoptimizer:simplify",
+          "meshoptimizer:meshopt"
+        ],
+        "blenderUsed": false,
+        "originalBytes": 398944,
+        "optimizedBytes": 169268,
+        "savingsPercent": 57.6,
+        "faceCount": 4137,
+        "meshCount": 11,
+        "materialCount": 4,
+        "hasSkin": false,
+        "animationCount": 0,
+        "animationNames": []
+      }
+    },
+    "prop_crystal": {
+      "slot": "prop_crystal",
+      "uid": "1c2e277c8c6b4c379ae55099c3122db1",
+      "name": "Glowing crystals",
+      "localUrl": "/assets/models/prop_crystal.glb",
+      "targetHeight": 2.4,
+      "author": "SusanKing",
+      "authorUrl": "https://sketchfab.com/krolzuzannapl",
+      "modelUrl": "https://sketchfab.com/3d-models/glowing-crystals-1c2e277c8c6b4c379ae55099c3122db1",
+      "thumbnailUrl": "https://media.sketchfab.com/models/1c2e277c8c6b4c379ae55099c3122db1/thumbnails/b8ae01f60f7442f89d7cfdf5f434fb6c/4becc0ccede04c50afe9c000ffc98cc1.jpeg",
+      "licenseSlug": "by",
+      "licenseLabel": "CC Attribution",
+      "isCommercialSafe": true,
+      "attributionText": "\"Glowing crystals\" (https://sketchfab.com/3d-models/glowing-crystals-1c2e277c8c6b4c379ae55099c3122db1) by SusanKing (https://sketchfab.com/krolzuzannapl) licensed under CC Attribution.",
+      "isAnimated": false,
+      "importedAt": "2026-11-16T16:13:24.137Z",
+      "optimization": {
+        "profile": "web",
+        "toolChain": [
+          "glTF-Transform",
+          "meshoptimizer:meshopt"
+        ],
+        "blenderUsed": false,
+        "originalBytes": 3267072,
+        "optimizedBytes": 3237128,
+        "savingsPercent": 0.9,
+        "faceCount": 399,
+        "meshCount": 1,
+        "materialCount": 1,
+        "hasSkin": false,
+        "animationCount": 0,
+        "animationNames": []
+      }
+    },
+    "prop_pine": {
+      "slot": "prop_pine",
+      "uid": "e72f2c31aac544e58b667c13ec718daf",
+      "name": "Pine tree low-poly",
+      "localUrl": "/assets/models/prop_pine.glb",
+      "targetHeight": 3.2,
+      "author": "Ricardo Sanchez",
+      "authorUrl": "https://sketchfab.com/380660711785",
+      "modelUrl": "https://sketchfab.com/3d-models/pine-tree-low-poly-e72f2c31aac544e58b667c13ec718daf",
+      "thumbnailUrl": "https://media.sketchfab.com/models/e72f2c31aac544e58b667c13ec718daf/thumbnails/0a159887a6b5476d9b7a422c02bcf8c5/d4a8184cb9bf42ee937f5c957b2f3644.jpeg",
+      "licenseSlug": "by",
+      "licenseLabel": "CC Attribution",
+      "isCommercialSafe": true,
+      "attributionText": "\"Pine tree low-poly\" (https://sketchfab.com/3d-models/pine-tree-low-poly-e72f2c31aac544e58b667c13ec718daf) by Ricardo Sanchez (https://sketchfab.com/380660711785) licensed under CC Attribution.",
+      "isAnimated": false,
+      "importedAt": "2026-11-16T16:15:48.015Z",
+      "optimization": {
+        "profile": "web",
+        "toolChain": [
+          "glTF-Transform",
+          "meshoptimizer:meshopt"
+        ],
+        "blenderUsed": false,
+        "originalBytes": 1707556,
+        "optimizedBytes": 1698492,
+        "savingsPercent": 0.5,
+        "faceCount": 282,
+        "meshCount": 1,
+        "materialCount": 1,
+        "hasSkin": false,
+        "animationCount": 0,
+        "animationNames": []
+      }
+    }
+  }
+}

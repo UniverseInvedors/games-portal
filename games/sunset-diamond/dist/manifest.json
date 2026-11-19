@@ -1,0 +1,25 @@
+{
+  "name": "Sunset Diamond — Android 3D Baseball",
+  "short_name": "Sunset Diamond",
+  "description": "AAA 3D Arcade Baseball with Android Virtual Controller, Exhibition & Home Run Derby.",
+  "start_url": "/",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#08101c",
+  "theme_color": "#08101c",
+  "categories": ["games", "sports"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

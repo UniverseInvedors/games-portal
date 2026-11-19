@@ -1,0 +1,10 @@
+{
+  "name": "RADIANT PROTOCOL",
+  "short_name": "RADIANT",
+  "description": "3v3 Tactical AI Arena FPS — Landscape Mobile & Web Edition",
+  "start_url": "/",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#0F1923",
+  "theme_color": "#0F1923"
+}

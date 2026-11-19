@@ -1,0 +1,122 @@
+{
+  "assets": {
+    "d39a0dee0f054c21b6751f7821aa7a8e": {
+      "uid": "d39a0dee0f054c21b6751f7821aa7a8e",
+      "name": "3DRT - Fantasy Warrior",
+      "author": "3DRT.com",
+      "authorUsername": "3DRT.com",
+      "viewerUrl": "https://sketchfab.com/3d-models/3drt-fantasy-warrior-d39a0dee0f054c21b6751f7821aa7a8e",
+      "thumbnailUrl": "https://media.sketchfab.com/models/d39a0dee0f054c21b6751f7821aa7a8e/thumbnails/9d8ef60c3f1b4659ac2574f9ff53195e/7a084e4bfb884ffaa3797d172e396b5c.jpeg",
+      "localUrl": "/assets/imported/d39a0dee0f054c21b6751f7821aa7a8e.opt.glb",
+      "filename": "d39a0dee0f054c21b6751f7821aa7a8e.opt.glb",
+      "license": {
+        "slug": "by",
+        "label": "CC Attribution",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "commercialSafe": true,
+        "attributionRequired": true
+      },
+      "attributionText": "\"3DRT - Fantasy Warrior\" (https://sketchfab.com/3d-models/3drt-fantasy-warrior-d39a0dee0f054c21b6751f7821aa7a8e) by 3DRT.com is licensed under CC Attribution (http://creativecommons.org/licenses/by/4.0/).",
+      "rawBytes": 3426456,
+      "optimizedBytes": 556212,
+      "savingsPercent": 84,
+      "vertexCount": 3055,
+      "triangleCount": 2504,
+      "hasSkeleton": true,
+      "isAnimated": true,
+      "animationNames": [
+        "Take 001"
+      ],
+      "optimizationSteps": [
+        "dedup (duplicate accessors/materials merged)",
+        "weld (indexed shared vertices)",
+        "textureResize (1 texture(s) optimized <= 512px for mobile GPU)",
+        "resample (1 skeletal/morph clip keyframes optimized)",
+        "prune (unused nodes/textures stripped)",
+        "meshopt (EXT_meshopt_compression applied)"
+      ],
+      "importedAt": "2026-11-16T16:08:24.557Z",
+      "recommendedSlot": "knight"
+    },
+    "893b5b9cc7864e52b7d31924fb8ba6a0": {
+      "uid": "893b5b9cc7864e52b7d31924fb8ba6a0",
+      "name": "Azazel - Animation",
+      "author": "Caìque Quintino",
+      "authorUsername": "CaiqueQuintino",
+      "viewerUrl": "https://sketchfab.com/3d-models/azazel-animation-893b5b9cc7864e52b7d31924fb8ba6a0",
+      "thumbnailUrl": "https://media.sketchfab.com/models/893b5b9cc7864e52b7d31924fb8ba6a0/thumbnails/8e314985c5ff47018a530950371ffea3/7b398320338b44efac35e3e8dee3e40e.jpeg",
+      "localUrl": "/assets/imported/893b5b9cc7864e52b7d31924fb8ba6a0.opt.glb",
+      "filename": "893b5b9cc7864e52b7d31924fb8ba6a0.opt.glb",
+      "license": {
+        "slug": "by",
+        "label": "CC Attribution",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "commercialSafe": true,
+        "attributionRequired": true
+      },
+      "attributionText": "\"Azazel - Animation\" (https://sketchfab.com/3d-models/azazel-animation-893b5b9cc7864e52b7d31924fb8ba6a0) by Caìque Quintino is licensed under CC Attribution (http://creativecommons.org/licenses/by/4.0/).",
+      "rawBytes": 1010284,
+      "optimizedBytes": 377776,
+      "savingsPercent": 63,
+      "vertexCount": 2043,
+      "triangleCount": 2660,
+      "hasSkeleton": true,
+      "isAnimated": true,
+      "animationNames": [
+        "AZAZEL|AZAZELAction"
+      ],
+      "optimizationSteps": [
+        "dedup (duplicate accessors/materials merged)",
+        "weld (indexed shared vertices)",
+        "textureResize (2 texture(s) optimized <= 512px for mobile GPU)",
+        "resample (1 skeletal/morph clip keyframes optimized)",
+        "prune (unused nodes/textures stripped)",
+        "meshopt (EXT_meshopt_compression applied)"
+      ],
+      "importedAt": "2026-11-16T16:09:03.557Z",
+      "recommendedSlot": "wizard"
+    },
+    "258d80bb82174922aa6e1801a74ae063": {
+      "uid": "258d80bb82174922aa6e1801a74ae063",
+      "name": "medieval siege bombard (low poly)",
+      "author": "Götz von Berlichingen",
+      "authorUsername": "vonBerlichingen",
+      "viewerUrl": "https://sketchfab.com/3d-models/medieval-siege-bombard-low-poly-258d80bb82174922aa6e1801a74ae063",
+      "thumbnailUrl": "https://media.sketchfab.com/models/258d80bb82174922aa6e1801a74ae063/thumbnails/2631dc059f294555977fbe8c1500a083/9a7cb1dfb23c4ec9adfd9df406b7827f.jpeg",
+      "localUrl": "/assets/imported/258d80bb82174922aa6e1801a74ae063.opt.glb",
+      "filename": "258d80bb82174922aa6e1801a74ae063.opt.glb",
+      "license": {
+        "slug": "by",
+        "label": "CC Attribution",
+        "url": "http://creativecommons.org/licenses/by/4.0/",
+        "commercialSafe": true,
+        "attributionRequired": true
+      },
+      "attributionText": "\"medieval siege bombard (low poly)\" (https://sketchfab.com/3d-models/medieval-siege-bombard-low-poly-258d80bb82174922aa6e1801a74ae063) by Götz von Berlichingen is licensed under CC Attribution (http://creativecommons.org/licenses/by/4.0/).",
+      "rawBytes": 4878424,
+      "optimizedBytes": 1444180,
+      "savingsPercent": 70,
+      "vertexCount": 26255,
+      "triangleCount": 22938,
+      "hasSkeleton": false,
+      "isAnimated": false,
+      "animationNames": [],
+      "optimizationSteps": [
+        "dedup (duplicate accessors/materials merged)",
+        "weld (indexed shared vertices)",
+        "simplify (34,842 -> 22,938 tris for mobile budget)",
+        "textureResize (3 texture(s) optimized <= 512px for mobile GPU)",
+        "prune (unused nodes/textures stripped)",
+        "meshopt (EXT_meshopt_compression applied)"
+      ],
+      "importedAt": "2026-11-16T16:09:28.123Z",
+      "recommendedSlot": "cannon",
+      "rotationOffsetY": 1.5707963267948966
+    }
+  },
+  "slotBindings": {
+    "knight": "d39a0dee0f054c21b6751f7821aa7a8e",
+    "wizard": "893b5b9cc7864e52b7d31924fb8ba6a0",
+    "cannon": "258d80bb82174922aa6e1801a74ae063"
+  }
+}

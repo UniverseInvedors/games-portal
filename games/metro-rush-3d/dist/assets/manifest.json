@@ -1,0 +1,185 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-16T16:27:44.042Z",
+  "targetProfile": "mobile",
+  "assets": {
+    "runner": {
+      "slot": "runner",
+      "uid": "64d33abd6ee74291ad6772eede20bcd2",
+      "name": "Neon Runner Animations Set",
+      "author": "Guso",
+      "authorUrl": "https://sketchfab.com/Guso",
+      "sourceUrl": "https://sketchfab.com/3d-models/neon-runner-animations-set-64d33abd6ee74291ad6772eede20bcd2",
+      "licenseSlug": "by",
+      "licenseLabel": "CC Attribution",
+      "attributionText": "\"Neon Runner Animations Set\" by Guso (CC Attribution) via Sketchfab",
+      "localUrl": "/assets/models/runner.glb",
+      "integrationStatus": "integrated",
+      "originalBytes": 2943936,
+      "optimizedBytes": 737540,
+      "savingsPercent": 75,
+      "triangleCount": 1674,
+      "animationClips": [
+        "rig|Sprint",
+        "rig|Idle",
+        "rig|Walk",
+        "rig|Jump",
+        "rig|Fall",
+        "rig|Roll",
+        "rig|T_Pose"
+      ],
+      "dimensions": {
+        "width": 3799600,
+        "height": 1119200.84,
+        "depth": 6553399.93
+      }
+    },
+    "drone": {
+      "slot": "drone",
+      "uid": "73554ac72553414a990929c6a044c797",
+      "name": "FNSD-500 - Security Drone",
+      "author": "HighPolyDensity",
+      "authorUrl": "https://sketchfab.com/HighPolyDensity",
+      "sourceUrl": "https://sketchfab.com/3d-models/fnsd-500-security-drone-73554ac72553414a990929c6a044c797",
+      "licenseSlug": "by",
+      "licenseLabel": "CC Attribution",
+      "attributionText": "\"FNSD-500 - Security Drone\" by HighPolyDensity (CC Attribution) via Sketchfab",
+      "localUrl": "/assets/models/drone.glb",
+      "integrationStatus": "integrated",
+      "originalBytes": 1184676,
+      "optimizedBytes": 154824,
+      "savingsPercent": 87,
+      "triangleCount": 1613,
+      "animationClips": [
+        "Power On",
+        "Idle",
+        "Fly Forward",
+        "Fly Backward",
+        "Power Off",
+        "Take Damage Heavy",
+        "Take Damage Light"
+      ],
+      "dimensions": {
+        "width": 117687.6,
+        "height": 117961.2,
+        "depth": 117961.2
+      }
+    },
+    "hoverboard": {
+      "slot": "hoverboard",
+      "uid": "b3c46a32438443d099ae64b83027f5a3",
+      "name": "Hoverboard BTTF - WCG",
+      "author": "Vanillatography",
+      "authorUrl": "https://sketchfab.com/vanillatography",
+      "sourceUrl": "https://sketchfab.com/3d-models/none-b3c46a32438443d099ae64b83027f5a3",
+      "licenseSlug": "by",
+      "licenseLabel": "CC Attribution",
+      "attributionText": "\"Hoverboard BTTF - WCG\" by Vanillatography (CC Attribution) via Sketchfab",
+      "localUrl": "/assets/models/hoverboard.glb",
+      "integrationStatus": "integrated",
+      "originalBytes": 2897656,
+      "optimizedBytes": 388864,
+      "savingsPercent": 87,
+      "triangleCount": 3103,
+      "animationClips": [],
+      "dimensions": {
+        "width": 230890.56,
+        "height": 20660.15,
+        "depth": 63904.12
+      }
+    },
+    "coin": {
+      "slot": "coin",
+      "uid": "7a40d686492545d1a6f6bd0c487f1cb9",
+      "name": "Low-Poly Gold Coin",
+      "author": "BillieBones",
+      "authorUrl": "https://sketchfab.com/BillieBones",
+      "sourceUrl": "https://sketchfab.com/3d-models/low-poly-gold-coin-7a40d686492545d1a6f6bd0c487f1cb9",
+      "licenseSlug": "by",
+      "licenseLabel": "CC Attribution",
+      "attributionText": "\"Low-Poly Gold Coin\" by BillieBones (CC Attribution) via Sketchfab",
+      "localUrl": "/assets/models/coin.glb",
+      "integrationStatus": "integrated",
+      "originalBytes": 1121212,
+      "optimizedBytes": 238272,
+      "savingsPercent": 79,
+      "triangleCount": 678,
+      "animationClips": [],
+      "dimensions": {
+        "width": 131844.71,
+        "height": 132135.05,
+        "depth": 29840.98
+      }
+    },
+    "building": {
+      "slot": "building",
+      "uid": "67b32912ff9d45c2a6ce5d32c72f69df",
+      "name": "Large Low Poly Building",
+      "author": "jimbogies",
+      "authorUrl": "https://sketchfab.com/jimbogies",
+      "sourceUrl": "https://sketchfab.com/3d-models/large-low-poly-building-67b32912ff9d45c2a6ce5d32c72f69df",
+      "licenseSlug": "by",
+      "licenseLabel": "CC Attribution",
+      "attributionText": "\"Large Low Poly Building\" by jimbogies (CC Attribution) via Sketchfab",
+      "localUrl": "/assets/models/building.glb",
+      "integrationStatus": "integrated",
+      "originalBytes": 269172,
+      "optimizedBytes": 91196,
+      "savingsPercent": 66,
+      "triangleCount": 2341,
+      "animationClips": [],
+      "dimensions": {
+        "width": 83889341.99,
+        "height": 104840080.44,
+        "depth": 100591060.79
+      }
+    },
+    "train": {
+      "slot": "train",
+      "uid": "fe1294f5589d4a97b0da53ca84de7b40",
+      "name": "train Ema 502 from Kyiv / поезд ема 502 из Киева",
+      "author": "gildermanvladimir089",
+      "authorUrl": "https://sketchfab.com/gildermanvladimir089",
+      "sourceUrl": "https://sketchfab.com/3d-models/none-fe1294f5589d4a97b0da53ca84de7b40",
+      "licenseSlug": "by",
+      "licenseLabel": "CC Attribution",
+      "attributionText": "\"train Ema 502 from Kyiv / поезд ема 502 из Киева\" by gildermanvladimir089 (CC Attribution) via Sketchfab",
+      "localUrl": "/assets/models/train.glb",
+      "integrationStatus": "integrated",
+      "originalBytes": 957340,
+      "optimizedBytes": 85356,
+      "savingsPercent": 91,
+      "triangleCount": 2159,
+      "animationClips": [],
+      "dimensions": {
+        "width": 290633.6,
+        "height": 76631.14,
+        "depth": 65718.64
+      }
+    },
+    "chaser": {
+      "slot": "chaser",
+      "uid": "procedural",
+      "name": "Procedural chaser",
+      "author": "Metro Rush 3D",
+      "authorUrl": "",
+      "sourceUrl": "",
+      "licenseSlug": "internal",
+      "licenseLabel": "Built-in PBR",
+      "attributionText": "",
+      "localUrl": null,
+      "integrationStatus": "procedural-retained",
+      "rejectionNote": "policebot: Sketchfab download rate limit reached (HTTP 429). Please retry in a moment.; LowPoly Stylized Police Officer: Sketchfab download rate limit reached (HTTP 429). Please retry in a moment.",
+      "originalBytes": 0,
+      "optimizedBytes": 0,
+      "savingsPercent": 0,
+      "triangleCount": 0,
+      "animationClips": [],
+      "dimensions": {
+        "width": 0,
+        "height": 0,
+        "depth": 0
+      }
+    }
+  }
+}

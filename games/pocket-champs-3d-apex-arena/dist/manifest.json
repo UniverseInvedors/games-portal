@@ -1,0 +1,40 @@
+{
+  "id": "/",
+  "name": "Pocket Champs 3D: Apex Arena",
+  "short_name": "PocketChamps",
+  "description": "High-speed 3D squad racing across Run, Swim, Climb, and Fly stadium courses with Android virtual controller, gadgets, training bags, and Trophy Road.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "landscape",
+  "background_color": "#0b162a",
+  "theme_color": "#0b162a",
+  "categories": ["games", "racing", "sports", "action"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

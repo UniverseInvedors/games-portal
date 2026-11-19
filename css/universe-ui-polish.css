@@ -1,0 +1,80 @@
+/**
+ * Universe Invedors — Unified UI Standards, Glassmorphism, Animations & UX Polish
+ * Pairs with universe-shader-bg.js so all content sits crisply above the animated GLSL canvas.
+ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body.universe-glsl-active {
+  position: relative;
+  background-color: #070b14 !important;
+}
+
+/* Ensure all primary layout containers sit cleanly above the fixed z-index:0 GLSL canvas */
+body.universe-glsl-active > *:not(#universe-glsl-bg):not(script):not(style) {
+  position: relative;
+  z-index: 1;
+}
+
+/* Refined Glassmorphism & Elevated Surfaces */
+.universe-glsl-active .card,
+.universe-glsl-active .tool-card,
+.universe-glsl-active .product-card,
+.universe-glsl-active .feature-card,
+.universe-glsl-active .panel,
+.universe-glsl-active .glass-panel,
+.universe-glsl-active [class*="card"]:not(.no-glass) {
+  backdrop-filter: blur(14px) saturate(135%);
+  -webkit-backdrop-filter: blur(14px) saturate(135%);
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+              border-color 0.25s ease;
+}
+
+.universe-glsl-active .card:hover,
+.universe-glsl-active .tool-card:hover,
+.universe-glsl-active .product-card:hover,
+.universe-glsl-active .feature-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 34px rgba(14, 165, 233, 0.16), 0 0 0 1px rgba(56, 189, 248, 0.32);
+}
+
+/* Smooth Entrance Animation */
+@keyframes universeFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.universe-glsl-active main,
+.universe-glsl-active section,
+.universe-glsl-active .hero {
+  animation: universeFadeUp 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Accessible High-Contrast Focus Ring */
+:focus-visible {
+  outline: 2px solid #38bdf8 !important;
+  outline-offset: 2px !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .universe-glsl-active main,
+  .universe-glsl-active section,
+  .universe-glsl-active .hero,
+  .universe-glsl-active .card,
+  .universe-glsl-active .tool-card {
+    animation: none !important;
+    transition: none !important;
+  }
+}
