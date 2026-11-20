@@ -330,17 +330,6 @@
     "local_route": "./games/sunvale-harvest/"
   },
   {
-    "slug": "tacticore-valorant-trainer",
-    "zip_file": "tacticore-valorant-trainer.zip",
-    "title": "VALORANT: PROTOCOL - Tactical 3D Shooter",
-    "description": "Competitive AAA tactical 3D first-person shooter with offline AI bots, server-side hit validation, counter-strafing gunplay, competitive matchmaking, and advanced combat analytics.",
-    "genre": "Action & FPS Shooter",
-    "has_vite_src": true,
-    "has_index_html": true,
-    "url": "https://games.universeinvedors.tech/games/tacticore-valorant-trainer/",
-    "local_route": "./games/tacticore-valorant-trainer/"
-  },
-  {
     "slug": "velvet-crown-3d-fashion-queen",
     "zip_file": "velvet-crown_-3d-fashion-queen.zip",
     "title": "Velvet Crown: 3D Fashion Queen",
