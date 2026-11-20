@@ -1,6 +1,6 @@
-﻿# Games.universeinvedors.tech â€” 37 Free 3D WebGL & HTML5 Browser Games
+﻿# Games.universeinvedors.tech â€” 36 Free 3D WebGL & HTML5 Browser Games
 
-Play 37 free browser-native 3D WebGL, Action, Racing, Strategy, Puzzle, and Simulation games with zero downloads at https://games.universeinvedors.tech/.
+Play 36 free browser-native 3D WebGL, Action, Racing, Strategy, Puzzle, and Simulation games with zero downloads at https://games.universeinvedors.tech/.
 
 ## Games Catalog
 - [AetherForge 3D](https://games.universeinvedors.tech/games/aetherforge-3d/) (3D Action & Combat): High-poly AAA 3D AI Model Synthesizer, Arena Action Game & Open-Source AR Showcase.
