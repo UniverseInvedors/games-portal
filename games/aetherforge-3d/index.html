@@ -565,6 +565,14 @@
     function shareGameChallenge() {
       const title = document.title.split('—')[0].trim();
       const url = window.location.href.split('?')[0] + '?ref=challenge';
+      // GA4 viral share tracking
+      if (typeof gtag === 'function') {
+        gtag('event', 'challenge_share', {
+          game_slug: location.pathname.split('/').filter(Boolean).pop() || document.title,
+          share_method: navigator.share ? 'native_share' : 'clipboard',
+          event_category: 'Viral', event_label: 'challenge_rivals'
+        });
+      }
       const text = `🎮 Play ${title} with me online! Free 3D WebGL browser game (no install):`;
       if (navigator.share) {
         navigator.share({ title: title, text: text, url: url }).catch(() => {});

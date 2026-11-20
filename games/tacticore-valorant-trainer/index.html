@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -563,6 +563,14 @@
     }
     function shareGameChallenge(title) {
       const url = window.location.href.split('?')[0] + '?ref=aim_challenge';
+      // GA4 viral share tracking
+      if (typeof gtag === 'function') {
+        gtag('event', 'challenge_share', {
+          game_slug: 'tacticore-valorant-trainer',
+          share_method: navigator.share ? 'native_share' : 'clipboard',
+          event_category: 'Viral', event_label: 'challenge_rivals'
+        });
+      }
       const text = `🎯 I'm training aim on ${title}! Can you beat my high score? Play free in browser:`;
       if (navigator.share) {
         navigator.share({ title: title, text: text, url: url }).catch(() => {});
