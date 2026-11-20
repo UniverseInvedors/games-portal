@@ -447,6 +447,7 @@
               <span><strong>VALORANT: PROTOCOL - Tactical 3D Shooter</strong> &bull; Live WebGL Game Engine</span>
             </div>
             <div class="toolbar-actions">
+              <button type="button" class="hud-btn" onclick="shareGameChallenge('VALORANT: PROTOCOL')" style="background:rgba(16,185,129,0.18);border-color:#10b981;color:#6ee7b7;font-weight:700;" title="Share Accuracy Challenge with Friends">🎯 Challenge Rivals</button>
               <button type="button" class="hud-btn" onclick="toggleFrameFullscreen()" title="Toggle Fullscreen">&#x26F6; Fullscreen</button>
               <a href="./dist/index.html" target="_blank" rel="noopener" class="btn-launch">Open Full Tab &nearr;</a>
             </div>
@@ -558,6 +559,19 @@
         wrap.requestFullscreen && wrap.requestFullscreen().catch(() => {});
       } else {
         document.exitFullscreen && document.exitFullscreen().catch(() => {});
+      }
+    }
+    function shareGameChallenge(title) {
+      const url = window.location.href.split('?')[0] + '?ref=aim_challenge';
+      const text = `🎯 I'm training aim on ${title}! Can you beat my high score? Play free in browser:`;
+      if (navigator.share) {
+        navigator.share({ title: title, text: text, url: url }).catch(() => {});
+      } else if (navigator.clipboard) {
+        navigator.clipboard.writeText(`${text} ${url}`).then(() => {
+          alert('🔥 Challenge link copied! Paste it in Discord or WhatsApp to challenge friends.');
+        });
+      } else {
+        prompt('Copy your challenge link:', `${text} ${url}`);
       }
     }
     window.addEventListener("DOMContentLoaded", syncHudButtons);

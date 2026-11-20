@@ -447,6 +447,7 @@
               <span><strong>Inamorta Legacy 3D</strong> &bull; Live WebGL Game Engine</span>
             </div>
             <div class="toolbar-actions">
+                            <button type="button" class="hud-btn" onclick="shareGameChallenge()" style="background:rgba(16,185,129,0.18);border-color:#10b981;color:#6ee7b7;font-weight:700;" title="Share Challenge with Friends">🎯 Challenge Rivals</button>
               <button type="button" class="hud-btn" onclick="toggleFrameFullscreen()" title="Toggle Fullscreen">&#x26F6; Fullscreen</button>
               <a href="./dist/index.html" target="_blank" rel="noopener" class="btn-launch">Open Full Tab &nearr;</a>
             </div>
@@ -560,6 +561,22 @@
         document.exitFullscreen && document.exitFullscreen().catch(() => {});
       }
     }
+    
+    function shareGameChallenge() {
+      const title = document.title.split('—')[0].trim();
+      const url = window.location.href.split('?')[0] + '?ref=challenge';
+      const text = `🎮 Play ${title} with me online! Free 3D WebGL browser game (no install):`;
+      if (navigator.share) {
+        navigator.share({ title: title, text: text, url: url }).catch(() => {});
+      } else if (navigator.clipboard) {
+        navigator.clipboard.writeText(`${text} ${url}`).then(() => {
+          alert('🔥 Challenge link copied! Share it on Discord or WhatsApp.');
+        });
+      } else {
+        prompt('Copy your challenge link:', `${text} ${url}`);
+      }
+    }
+
     window.addEventListener("DOMContentLoaded", syncHudButtons);
   </script>
 
